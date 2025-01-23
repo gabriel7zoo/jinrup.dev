@@ -46,7 +46,7 @@ const LanguageMenuItem = ({ locale }: { locale: Locale }) => {
 			className='rounded px-2 py-1.5'
 			onClick={() => replace(pathname!, { locale })}
 		>
-			{locale === defaultLocale ? '繁體中文' : 'English'}
+			{locale === defaultLocale ? 'Italian' : 'English'}
 		</DropdownMenuItem>
 	);
 };
